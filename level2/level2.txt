@@ -1,0 +1,36 @@
+1.What is the DOM?
+
+DOM stands for Document Object Model. when a web page is loaded, the browser creats a DOM of the page. JavaScript can access this DOM to change elements of an HTML document.
+It can change all the HTML attributes or CSS styles in the page just to name two examples.
+
+2.List three methods to manipulate the DOM.
+
+    createElement() to create a new html element.
+    getAttribute() to retun a value of a specified attributes
+    removeAttribute() Removes a given attributes
+
+
+3.What is an asynchronous call?
+
+It lets you send a request, and while the request is running the rest of the code can contiune running.
+
+4.Briefly explain what the sources tab in Chromes Developers Tools does.
+
+The sources tab lets you view files, edit css and javascript, test and debug javascript.
+
+5.What is a JavaScript promise?
+
+A promise is the eventual result of an operation, it's a placeholder for the upcoming result the operation is running.
+
+6.What is an API?
+
+API stands for Application Programming Interface. an API is a messenger that take requests and tells the system what what was requested and then deliveres the request back.
+
+7.What is a JavaScript Event?
+
+A Javascript event is triggered when a user interacts with an element on a web page, or the browser interacts with something on the web page.
+
+8.What is event bubbling?
+
+Event propagation, also known as event bubbling.
+If a user triggers an event, and there is no event for the trigger the user used, it will travel upwards and trigger the parents event.
